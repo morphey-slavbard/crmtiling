@@ -72,7 +72,7 @@ export default function ContactSection() {
                 <Mail className="w-6 h-6 text-cyan-300 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1">Email</h3>
-                  <p className="text-blue-100">hello@tilecraft.com</p>
+                  <p className="text-blue-100">hello@crmtiling.com</p>
                 </div>
               </div>
 
