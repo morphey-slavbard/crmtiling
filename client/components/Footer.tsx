@@ -20,7 +20,7 @@ export default function Footer() {
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-sm">
               <p>Phone: (555) 123-4567</p>
-              <p>Email: hello@tilecraft.com</p>
+              <p>Email: hello@crmtiling.com</p>
               <p>Service Area: Greater California</p>
             </div>
           </div>
