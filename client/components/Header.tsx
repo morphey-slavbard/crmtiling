@@ -79,31 +79,31 @@ export default function Header() {
           <nav className="md:hidden pb-4 flex flex-col gap-3">
             <button
               onClick={() => scrollToSection("hero")}
-              className="text-sm text-stone-600 hover:text-stone-900 transition-colors text-left py-2"
+              className="text-sm text-blue-600 hover:text-blue-700 transition-colors text-left py-2"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("about")}
-              className="text-sm text-stone-600 hover:text-stone-900 transition-colors text-left py-2"
+              className="text-sm text-blue-600 hover:text-blue-700 transition-colors text-left py-2"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-sm text-stone-600 hover:text-stone-900 transition-colors text-left py-2"
+              className="text-sm text-blue-600 hover:text-blue-700 transition-colors text-left py-2"
             >
               Services
             </button>
             <button
               onClick={() => scrollToSection("gallery")}
-              className="text-sm text-stone-600 hover:text-stone-900 transition-colors text-left py-2"
+              className="text-sm text-blue-600 hover:text-blue-700 transition-colors text-left py-2"
             >
               Gallery
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="px-6 py-2 bg-stone-900 text-white rounded-lg hover:bg-stone-800 transition-colors text-sm font-medium w-full"
+              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium w-full"
             >
               Contact
             </button>
