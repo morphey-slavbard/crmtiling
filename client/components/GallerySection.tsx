@@ -50,8 +50,8 @@ export default function GallerySection() {
     <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-stone-900 mb-4">Our Work</h2>
-          <p className="text-lg text-stone-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">Our Work</h2>
+          <p className="text-lg text-blue-600 max-w-2xl mx-auto">
             Explore our gallery of completed projects and transformations
           </p>
         </div>
@@ -69,7 +69,7 @@ export default function GallerySection() {
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
-                <div className="bg-white/90 text-stone-900 px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity text-center">
+                <div className="bg-white/90 text-blue-900 px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity text-center">
                   <p className="text-sm font-semibold">{item.title}</p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ export default function GallerySection() {
           <div className="relative max-w-4xl w-full">
             <button
               onClick={() => setSelectedIndex(null)}
-              className="absolute -top-10 right-0 text-white hover:text-stone-200 transition-colors"
+              className="absolute -top-10 right-0 text-white hover:text-blue-200 transition-colors"
             >
               <X size={32} />
             </button>
@@ -92,7 +92,7 @@ export default function GallerySection() {
             <div className="flex gap-4 items-center justify-between">
               <button
                 onClick={prevImage}
-                className="text-white hover:text-stone-200 transition-colors"
+                className="text-white hover:text-blue-200 transition-colors"
               >
                 <ChevronLeft size={32} />
               </button>
@@ -107,7 +107,7 @@ export default function GallerySection() {
 
               <button
                 onClick={nextImage}
-                className="text-white hover:text-stone-200 transition-colors"
+                className="text-white hover:text-blue-200 transition-colors"
               >
                 <ChevronRight size={32} />
               </button>
@@ -117,7 +117,7 @@ export default function GallerySection() {
               <p className="text-white text-lg font-semibold">
                 {galleryImages[selectedIndex].title}
               </p>
-              <p className="text-stone-300 text-sm">
+              <p className="text-blue-300 text-sm">
                 {selectedIndex + 1} / {galleryImages.length}
               </p>
             </div>
