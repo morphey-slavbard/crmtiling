@@ -9,17 +9,17 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="pt-24 pb-12 bg-gradient-to-b from-white to-stone-50"
+      className="pt-24 pb-12 bg-gradient-to-b from-white to-blue-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl font-bold text-stone-900 leading-tight">
+              <h1 className="text-5xl lg:text-6xl font-bold text-blue-900 leading-tight">
                 Professional Tiling Services
               </h1>
-              <p className="text-xl text-stone-600 leading-relaxed">
+              <p className="text-xl text-blue-600 leading-relaxed">
                 Exceptional quality, reliable craftsmanship, and meticulous
                 attention to detail in every tile we lay.
               </p>
@@ -28,13 +28,13 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <button
                 onClick={() => scrollToSection("contact")}
-                className="px-8 py-3 bg-stone-900 text-white rounded-lg hover:bg-stone-800 transition-colors font-semibold"
+                className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
               >
                 Get a Quote
               </button>
               <button
                 onClick={() => scrollToSection("gallery")}
-                className="px-8 py-3 border-2 border-stone-900 text-stone-900 rounded-lg hover:bg-stone-50 transition-colors font-semibold"
+                className="px-8 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors font-semibold"
               >
                 View Our Work
               </button>
