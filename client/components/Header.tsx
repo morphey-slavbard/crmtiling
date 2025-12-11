@@ -18,13 +18,17 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <button
             onClick={() => scrollToSection("hero")}
-            className="flex items-center hover:opacity-80 transition-opacity"
+            className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F28d3fdd1a708436099ea3ba5fd26503f%2F6bdbaad2bc08434d8171edd1ec67654b?format=webp&width=800"
-              alt="TileCraft Logo"
+              alt="CRM Tiling Logo"
               className="h-12 w-auto"
             />
+            <div className="hidden sm:block">
+              <div className="text-lg font-bold text-blue-700">CRM Tiling</div>
+              <div className="text-xs text-blue-500">Professional Services</div>
+            </div>
           </button>
 
           {/* Desktop Navigation */}
