@@ -64,25 +64,15 @@ export default function GallerySection() {
               onClick={() => setSelectedIndex(index)}
               className="group relative h-64 rounded-lg overflow-hidden cursor-pointer"
             >
-              <div className="absolute inset-0 flex gap-0">
-                <img
-                  src={item.before}
-                  alt="Before"
-                  className="w-1/2 h-full object-cover group-hover:opacity-75 transition-opacity"
-                />
-                <img
-                  src={item.after}
-                  alt="After"
-                  className="w-1/2 h-full object-cover group-hover:opacity-75 transition-opacity"
-                />
-              </div>
+              <img
+                src={item.image}
+                alt={item.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+              />
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">
                 <div className="bg-white/90 text-stone-900 px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity text-center">
                   <p className="text-sm font-semibold">{item.title}</p>
                 </div>
-              </div>
-              <div className="absolute top-2 left-2 bg-white/90 px-2 py-1 rounded text-xs font-semibold text-stone-900 opacity-0 group-hover:opacity-100 transition-opacity">
-                Before & After
               </div>
             </button>
           ))}
