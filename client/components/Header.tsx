@@ -26,8 +26,7 @@ export default function Header() {
               className="h-12 w-auto"
             />
             <div className="hidden sm:block">
-              <div className="text-lg font-bold text-blue-700">CRM Tiling</div>
-              <div className="text-xs text-blue-500">Professional Services</div>
+              <div className="text-lg font-bold text-slate-900">CRM Tiling</div>
             </div>
           </button>
 
