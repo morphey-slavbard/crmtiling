@@ -38,13 +38,13 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section id="services" className="py-20 bg-stone-50">
+    <section id="services" className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-stone-900 mb-4">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">
             Our Services
           </h2>
-          <p className="text-lg text-stone-600 max-w-2xl mx-auto">
+          <p className="text-lg text-blue-600 max-w-2xl mx-auto">
             We offer comprehensive tiling solutions for every space and style
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function ServicesSection() {
               key={service.id}
               className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition-shadow"
             >
-              <div className="relative h-48 overflow-hidden bg-stone-200">
+              <div className="relative h-48 overflow-hidden bg-blue-200">
                 <img
                   src={service.image}
                   alt={service.title}
@@ -63,10 +63,10 @@ export default function ServicesSection() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-stone-900 mb-3">
+                <h3 className="text-xl font-bold text-blue-900 mb-3">
                   {service.title}
                 </h3>
-                <p className="text-stone-600 text-sm leading-relaxed">
+                <p className="text-blue-600 text-sm leading-relaxed">
                   {service.description}
                 </p>
               </div>
