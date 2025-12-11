@@ -6,34 +6,28 @@ export default function GallerySection() {
 
   const galleryImages = [
     {
-      before: "https://images.unsplash.com/photo-1552992154-a4a4ce5c4e00?w=400&q=80",
-      after: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&q=80",
-      title: "Luxury Bathroom Renovation",
+      image: "https://images.unsplash.com/photo-1552992154-a4a4ce5c4e00?w=600&q=80",
+      title: "Luxury Bathroom Tiling",
     },
     {
-      before: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&q=80",
-      after: "https://images.unsplash.com/photo-1584622614875-e8f1d71d2a95?w=400&q=80",
-      title: "Modern Kitchen Remodel",
+      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80",
+      title: "Modern Kitchen Installation",
     },
     {
-      before: "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=400&q=80",
-      after: "https://images.unsplash.com/photo-1578696314433-cfaef93e40ca?w=400&q=80",
-      title: "Contemporary Floor Installation",
+      image: "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80",
+      title: "Contemporary Floor Design",
     },
     {
-      before: "https://images.unsplash.com/photo-1552992154-a4a4ce5c4e00?w=400&q=80",
-      after: "https://images.unsplash.com/photo-1577720633776-25b9e19e1b08?w=400&q=80",
-      title: "Feature Wall Creation",
+      image: "https://images.unsplash.com/photo-1577720633776-25b9e19e1b08?w=600&q=80",
+      title: "Feature Wall Mosaic",
     },
     {
-      before: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=400&q=80",
-      after: "https://images.unsplash.com/photo-1552991286-7f59dfea6d5c?w=400&q=80",
-      title: "Outdoor Patio Tiling",
+      image: "https://images.unsplash.com/photo-1552991286-7f59dfea6d5c?w=600&q=80",
+      title: "Outdoor Patio Installation",
     },
     {
-      before: "https://images.unsplash.com/photo-1578696314433-cfaef93e40ca?w=400&q=80",
-      after: "https://images.unsplash.com/photo-1584622614875-e8f1d71d2a95?w=400&q=80",
-      title: "Entryway Transformation",
+      image: "https://images.unsplash.com/photo-1584622614875-e8f1d71d2a95?w=600&q=80",
+      title: "Premium Entryway Tiling",
     },
   ];
 
