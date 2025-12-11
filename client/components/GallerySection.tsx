@@ -6,27 +6,27 @@ export default function GallerySection() {
 
   const galleryImages = [
     {
-      image: "https://images.unsplash.com/photo-1552992154-a4a4ce5c4e00?w=600&q=80",
+      image: "https://placehold.co/600x400/5a5248/ffffff?text=Luxury+Bathroom",
       title: "Luxury Bathroom Tiling",
     },
     {
-      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80",
+      image: "https://placehold.co/600x400/6b6159/ffffff?text=Modern+Kitchen",
       title: "Modern Kitchen Installation",
     },
     {
-      image: "https://images.unsplash.com/photo-1580136579312-94651dfd596d?w=600&q=80",
+      image: "https://placehold.co/600x400/7a6f68/ffffff?text=Floor+Design",
       title: "Contemporary Floor Design",
     },
     {
-      image: "https://images.unsplash.com/photo-1577720633776-25b9e19e1b08?w=600&q=80",
+      image: "https://placehold.co/600x400/8b7d72/ffffff?text=Feature+Wall",
       title: "Feature Wall Mosaic",
     },
     {
-      image: "https://images.unsplash.com/photo-1552991286-7f59dfea6d5c?w=600&q=80",
+      image: "https://placehold.co/600x400/9b8d7d/ffffff?text=Patio+Installation",
       title: "Outdoor Patio Installation",
     },
     {
-      image: "https://images.unsplash.com/photo-1584622614875-e8f1d71d2a95?w=600&q=80",
+      image: "https://placehold.co/600x400/aba39c/ffffff?text=Entryway+Tiling",
       title: "Premium Entryway Tiling",
     },
   ];
