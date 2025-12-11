@@ -26,10 +26,10 @@ export default function Testimonials() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-stone-900 mb-4">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">
             Client Testimonials
           </h2>
-          <p className="text-lg text-stone-600 max-w-2xl mx-auto">
+          <p className="text-lg text-blue-600 max-w-2xl mx-auto">
             What our satisfied customers have to say about our work
           </p>
         </div>
@@ -38,7 +38,7 @@ export default function Testimonials() {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-stone-50 p-8 rounded-lg border border-stone-200 hover:border-stone-300 transition-colors"
+              className="bg-blue-50 p-8 rounded-lg border border-blue-200 hover:border-blue-300 transition-colors"
             >
               <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
@@ -50,13 +50,13 @@ export default function Testimonials() {
                 ))}
               </div>
 
-              <p className="text-stone-700 mb-6 leading-relaxed italic">
+              <p className="text-blue-700 mb-6 leading-relaxed italic">
                 "{testimonial.text}"
               </p>
 
               <div>
-                <h3 className="font-bold text-stone-900">{testimonial.name}</h3>
-                <p className="text-sm text-stone-600">{testimonial.location}</p>
+                <h3 className="font-bold text-blue-900">{testimonial.name}</h3>
+                <p className="text-sm text-blue-600">{testimonial.location}</p>
               </div>
             </div>
           ))}
