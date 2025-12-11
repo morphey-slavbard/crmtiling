@@ -16,14 +16,16 @@ export default function Header() {
     <header className="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-stone-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <button
-              onClick={() => scrollToSection("hero")}
-              className="text-xl font-bold text-stone-900 hover:text-stone-700 transition-colors"
-            >
-              TileCraft
-            </button>
-          </div>
+          <button
+            onClick={() => scrollToSection("hero")}
+            className="flex items-center hover:opacity-80 transition-opacity"
+          >
+            <img
+              src="/logo.jpg"
+              alt="TileCraft Logo"
+              className="h-12 w-auto"
+            />
+          </button>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
