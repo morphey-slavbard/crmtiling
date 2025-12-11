@@ -9,7 +9,11 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     fs: {
-      allow: ["./client", "./shared"],
+      allow: [
+        path.resolve(__dirname),            // allow the repo root (crmtiling)
+        path.resolve(__dirname, "client"),  // existing allowed folder
+        path.resolve(__dirname, "shared"),  // existing allowed folder
+      ],
       deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
     },
   },
