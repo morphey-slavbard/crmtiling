@@ -98,21 +98,12 @@ export default function GallerySection() {
                 <ChevronLeft size={32} />
               </button>
 
-              <div className="flex gap-2 h-96">
-                <div className="flex-1 rounded-lg overflow-hidden">
-                  <img
-                    src={galleryImages[selectedIndex].before}
-                    alt="Before"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <div className="flex-1 rounded-lg overflow-hidden">
-                  <img
-                    src={galleryImages[selectedIndex].after}
-                    alt="After"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
+              <div className="rounded-lg overflow-hidden w-full h-96">
+                <img
+                  src={galleryImages[selectedIndex].image}
+                  alt={galleryImages[selectedIndex].title}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <button
