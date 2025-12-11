@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="border-t border-blue-800 pt-8 text-center text-sm">
           <p>
-            &copy; {currentYear} TileCraft. All rights reserved. Professional
+            &copy; {currentYear} CRM Tiling. All rights reserved. Professional
             tiling services.
           </p>
         </div>
