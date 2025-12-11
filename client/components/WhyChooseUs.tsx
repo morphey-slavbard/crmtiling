@@ -29,13 +29,13 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="py-20 bg-stone-50">
+    <section className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-stone-900 mb-4">
+          <h2 className="text-4xl font-bold text-blue-900 mb-4">
             Why Choose TileCraft
           </h2>
-          <p className="text-lg text-stone-600 max-w-2xl mx-auto">
+          <p className="text-lg text-blue-600 max-w-2xl mx-auto">
             We're committed to delivering exceptional service and outstanding
             results
           </p>
@@ -51,13 +51,13 @@ export default function WhyChooseUs() {
               >
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <Icon className="w-8 h-8 text-stone-900" />
+                    <Icon className="w-8 h-8 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-stone-900 mb-2">
+                    <h3 className="text-xl font-bold text-blue-900 mb-2">
                       {reason.title}
                     </h3>
-                    <p className="text-stone-600 leading-relaxed">
+                    <p className="text-blue-600 leading-relaxed">
                       {reason.description}
                     </p>
                   </div>
