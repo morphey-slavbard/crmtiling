@@ -43,7 +43,7 @@ export default function HeroSection() {
           {/* Hero Image */}
           <div className="relative h-96 lg:h-full lg:min-h-96 rounded-xl overflow-hidden shadow-lg">
             <img
-              src="https://images.unsplash.com/photo-1584622614875-e8f1d71d2a95?w=800&q=80"
+              src="https://placehold.co/800x600/5a5248/ffffff?text=Premium+Tiling"
               alt="Premium tiling work"
               className="w-full h-full object-cover"
             />
