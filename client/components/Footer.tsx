@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-white text-xl font-bold mb-2">TileCraft</h3>
+            <h3 className="text-white text-xl font-bold mb-2">CRM Tiling</h3>
             <p className="text-sm">
               Professional tiling services with 20+ years of experience.
             </p>
