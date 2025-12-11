@@ -22,7 +22,8 @@ export default function GallerySection() {
       title: "Feature Wall Mosaic",
     },
     {
-      image: "https://placehold.co/600x400/9b8d7d/ffffff?text=Patio+Installation",
+      image:
+        "https://placehold.co/600x400/9b8d7d/ffffff?text=Patio+Installation",
       title: "Outdoor Patio Installation",
     },
     {
@@ -40,7 +41,7 @@ export default function GallerySection() {
   const prevImage = () => {
     if (selectedIndex !== null) {
       setSelectedIndex(
-        (selectedIndex - 1 + galleryImages.length) % galleryImages.length
+        (selectedIndex - 1 + galleryImages.length) % galleryImages.length,
       );
     }
   };
@@ -49,9 +50,7 @@ export default function GallerySection() {
     <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-stone-900 mb-4">
-            Our Work
-          </h2>
+          <h2 className="text-4xl font-bold text-stone-900 mb-4">Our Work</h2>
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
             Explore our gallery of completed projects and transformations
           </p>

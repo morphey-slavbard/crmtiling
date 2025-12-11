@@ -3,31 +3,36 @@ export default function ServicesSection() {
     {
       id: 1,
       title: "Kitchen Tiling",
-      description: "Durable, beautiful tilework that transforms your kitchen into a culinary centerpiece with professional installation.",
+      description:
+        "Durable, beautiful tilework that transforms your kitchen into a culinary centerpiece with professional installation.",
       image: "https://placehold.co/500x300/5a5248/ffffff?text=Kitchen+Tiling",
     },
     {
       id: 2,
       title: "Bathroom Tiling",
-      description: "Waterproof solutions and elegant designs that combine functionality with stunning aesthetics for any bathroom.",
+      description:
+        "Waterproof solutions and elegant designs that combine functionality with stunning aesthetics for any bathroom.",
       image: "https://placehold.co/500x300/6b6159/ffffff?text=Bathroom+Tiling",
     },
     {
       id: 3,
       title: "Floor Tiling",
-      description: "Robust flooring solutions for residential and commercial spaces with seamless installation and lasting durability.",
+      description:
+        "Robust flooring solutions for residential and commercial spaces with seamless installation and lasting durability.",
       image: "https://placehold.co/500x300/7a6f68/ffffff?text=Floor+Tiling",
     },
     {
       id: 4,
       title: "Mosaic & Feature Walls",
-      description: "Bespoke artistic tilework that creates striking focal points and adds personality to any room.",
+      description:
+        "Bespoke artistic tilework that creates striking focal points and adds personality to any room.",
       image: "https://placehold.co/500x300/8b7d72/ffffff?text=Mosaic+Walls",
     },
     {
       id: 5,
       title: "Outdoor Tiling",
-      description: "Weather-resistant installations for patios, terraces, and outdoor spaces that withstand the elements.",
+      description:
+        "Weather-resistant installations for patios, terraces, and outdoor spaces that withstand the elements.",
       image: "https://placehold.co/500x300/9b8d7d/ffffff?text=Outdoor+Tiling",
     },
   ];

@@ -20,7 +20,8 @@ export default function HeroSection() {
                 Professional Tiling Services
               </h1>
               <p className="text-xl text-stone-600 leading-relaxed">
-                Exceptional quality, reliable craftsmanship, and meticulous attention to detail in every tile we lay.
+                Exceptional quality, reliable craftsmanship, and meticulous
+                attention to detail in every tile we lay.
               </p>
             </div>
 

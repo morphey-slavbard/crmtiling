@@ -17,7 +17,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <button 
+            <button
               onClick={() => scrollToSection("hero")}
               className="text-xl font-bold text-stone-900 hover:text-stone-700 transition-colors"
             >

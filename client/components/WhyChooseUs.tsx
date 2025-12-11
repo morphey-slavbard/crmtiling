@@ -36,7 +36,8 @@ export default function WhyChooseUs() {
             Why Choose TileCraft
           </h2>
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
-            We're committed to delivering exceptional service and outstanding results
+            We're committed to delivering exceptional service and outstanding
+            results
           </p>
         </div>
 

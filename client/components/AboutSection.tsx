@@ -21,10 +21,16 @@ export default function AboutSection() {
                 Trusted Tiling Experts
               </h2>
               <p className="text-lg text-stone-600">
-                With over 20 years of experience in the tiling industry, TileCraft has built a reputation for delivering exceptional results. Our team of skilled craftsmen takes pride in every project, from residential renovations to commercial installations.
+                With over 20 years of experience in the tiling industry,
+                TileCraft has built a reputation for delivering exceptional
+                results. Our team of skilled craftsmen takes pride in every
+                project, from residential renovations to commercial
+                installations.
               </p>
               <p className="text-lg text-stone-600">
-                We believe in using premium materials, proven techniques, and honest communication to ensure your satisfaction every step of the way.
+                We believe in using premium materials, proven techniques, and
+                honest communication to ensure your satisfaction every step of
+                the way.
               </p>
             </div>
 
@@ -33,23 +39,33 @@ export default function AboutSection() {
                 <CheckCircle className="w-6 h-6 text-stone-900 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-stone-900">Insured Work</h3>
-                  <p className="text-stone-600 text-sm">Fully insured and licensed for your peace of mind</p>
+                  <p className="text-stone-600 text-sm">
+                    Fully insured and licensed for your peace of mind
+                  </p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start">
                 <Award className="w-6 h-6 text-stone-900 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-semibold text-stone-900">Guaranteed Quality</h3>
-                  <p className="text-stone-600 text-sm">Premium finishes backed by our quality guarantee</p>
+                  <h3 className="font-semibold text-stone-900">
+                    Guaranteed Quality
+                  </h3>
+                  <p className="text-stone-600 text-sm">
+                    Premium finishes backed by our quality guarantee
+                  </p>
                 </div>
               </div>
 
               <div className="flex gap-4 items-start">
                 <Users className="w-6 h-6 text-stone-900 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-semibold text-stone-900">Skilled Craftsmen</h3>
-                  <p className="text-stone-600 text-sm">Expert installers with years of specialized training</p>
+                  <h3 className="font-semibold text-stone-900">
+                    Skilled Craftsmen
+                  </h3>
+                  <p className="text-stone-600 text-sm">
+                    Expert installers with years of specialized training
+                  </p>
                 </div>
               </div>
             </div>
