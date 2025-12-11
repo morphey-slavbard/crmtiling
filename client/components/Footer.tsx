@@ -4,7 +4,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-stone-900 text-stone-300 border-t border-stone-800">
+    <footer className="bg-blue-900 text-blue-300 border-t border-blue-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
@@ -31,25 +31,25 @@ export default function Footer() {
             <div className="flex gap-4">
               <a
                 href="#"
-                className="text-stone-400 hover:text-white transition-colors"
+                className="text-blue-400 hover:text-white transition-colors"
               >
                 <Facebook size={20} />
               </a>
               <a
                 href="#"
-                className="text-stone-400 hover:text-white transition-colors"
+                className="text-blue-400 hover:text-white transition-colors"
               >
                 <Instagram size={20} />
               </a>
               <a
                 href="#"
-                className="text-stone-400 hover:text-white transition-colors"
+                className="text-blue-400 hover:text-white transition-colors"
               >
                 <Twitter size={20} />
               </a>
               <a
                 href="#"
-                className="text-stone-400 hover:text-white transition-colors"
+                className="text-blue-400 hover:text-white transition-colors"
               >
                 <Linkedin size={20} />
               </a>
@@ -57,7 +57,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-stone-800 pt-8 text-center text-sm">
+        <div className="border-t border-blue-800 pt-8 text-center text-sm">
           <p>
             &copy; {currentYear} TileCraft. All rights reserved. Professional
             tiling services.
