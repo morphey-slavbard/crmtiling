@@ -4,31 +4,31 @@ export default function ServicesSection() {
       id: 1,
       title: "Kitchen Tiling",
       description: "Durable, beautiful tilework that transforms your kitchen into a culinary centerpiece with professional installation.",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&q=80",
+      image: "https://placehold.co/500x300/5a5248/ffffff?text=Kitchen+Tiling",
     },
     {
       id: 2,
       title: "Bathroom Tiling",
       description: "Waterproof solutions and elegant designs that combine functionality with stunning aesthetics for any bathroom.",
-      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=500&q=80",
+      image: "https://placehold.co/500x300/6b6159/ffffff?text=Bathroom+Tiling",
     },
     {
       id: 3,
       title: "Floor Tiling",
       description: "Robust flooring solutions for residential and commercial spaces with seamless installation and lasting durability.",
-      image: "https://images.unsplash.com/photo-1578696314433-cfaef93e40ca?w=500&q=80",
+      image: "https://placehold.co/500x300/7a6f68/ffffff?text=Floor+Tiling",
     },
     {
       id: 4,
       title: "Mosaic & Feature Walls",
       description: "Bespoke artistic tilework that creates striking focal points and adds personality to any room.",
-      image: "https://images.unsplash.com/photo-1577720633776-25b9e19e1b08?w=500&q=80",
+      image: "https://placehold.co/500x300/8b7d72/ffffff?text=Mosaic+Walls",
     },
     {
       id: 5,
       title: "Outdoor Tiling",
       description: "Weather-resistant installations for patios, terraces, and outdoor spaces that withstand the elements.",
-      image: "https://images.unsplash.com/photo-1552991286-7f59dfea6d5c?w=500&q=80",
+      image: "https://placehold.co/500x300/9b8d7d/ffffff?text=Outdoor+Tiling",
     },
   ];
 
