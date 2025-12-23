@@ -50,8 +50,8 @@ export default function GallerySection() {
     <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-blue-900 mb-4">Our Work</h2>
-          <p className="text-lg text-blue-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold text-[#006ecf] mb-4">Our Work</h2>
+          <p className="text-lg text-blue-900 max-w-2xl mx-auto">
             Explore our gallery of completed projects and transformations
           </p>
         </div>

@@ -32,10 +32,10 @@ export default function WhyChooseUs() {
     <section className="py-20 bg-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-blue-900 mb-4">
+          <h2 className="text-4xl font-bold text-[#006ecf] mb-4">
             Why Choose CRM Tiling
           </h2>
-          <p className="text-lg text-blue-600 max-w-2xl mx-auto">
+          <p className="text-lg text-black-600 max-w-2xl mx-auto">
             We're committed to delivering exceptional service and outstanding
             results
           </p>
@@ -54,10 +54,10 @@ export default function WhyChooseUs() {
                     <Icon className="w-8 h-8 text-blue-600" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-blue-900 mb-2">
+                    <h3 className="text-xl font-bold text-[#006ecf] mb-2">
                       {reason.title}
                     </h3>
-                    <p className="text-blue-600 leading-relaxed">
+                    <p className="text-black-600 leading-relaxed">
                       {reason.description}
                     </p>
                   </div>

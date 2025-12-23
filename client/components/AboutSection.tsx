@@ -17,17 +17,17 @@ export default function AboutSection() {
           {/* Content */}
           <div className="space-y-8 order-1 lg:order-2">
             <div className="space-y-4">
-              <h2 className="text-4xl font-bold text-blue-900">
+              <h2 className="text-4xl font-bold text-[#006ecf]">
                 Trusted Tiling Experts
               </h2>
-              <p className="text-lg text-blue-600">
+              <p className="text-lg text-black-600">
                 With over 20 years of experience in the tiling industry,
-                TileCraft has built a reputation for delivering exceptional
+                CRm TIling has built a reputation for delivering exceptional
                 results. Our team of skilled craftsmen takes pride in every
                 project, from residential renovations to commercial
                 installations.
               </p>
-              <p className="text-lg text-blue-600">
+              <p className="text-lg text-black-600">
                 We believe in using premium materials, proven techniques, and
                 honest communication to ensure your satisfaction every step of
                 the way.
@@ -38,7 +38,7 @@ export default function AboutSection() {
               <div className="flex gap-4 items-start">
                 <CheckCircle className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-semibold text-blue-900">Insured Work</h3>
+                  <h3 className="font-semibold text-[#006ecf]">Insured Work</h3>
                   <p className="text-stone-600 text-sm">
                     Fully insured and licensed for your peace of mind
                   </p>
@@ -48,7 +48,7 @@ export default function AboutSection() {
               <div className="flex gap-4 items-start">
                 <Award className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-semibold text-blue-900">
+                  <h3 className="font-semibold text-[#006ecf]">
                     Guaranteed Quality
                   </h3>
                   <p className="text-stone-600 text-sm">
@@ -60,11 +60,11 @@ export default function AboutSection() {
               <div className="flex gap-4 items-start">
                 <Users className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-semibold text-blue-900">
+                  <h3 className="font-semibold text-[#006ecf]">
                     Skilled Craftsmen
                   </h3>
                   <p className="text-stone-600 text-sm">
-                    Expert installers with years of specialized training
+                    Expert installers with years of specialised training
                   </p>
                 </div>
               </div>

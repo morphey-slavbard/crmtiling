@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-xl font-bold mb-2">CRM Tiling</h3>
             <p className="text-sm">
-              Professional tiling services with 20+ years of experience.
+              Professional tiling services with 10+ years of experience.
             </p>
           </div>
 
@@ -19,48 +19,33 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-sm">
-              <p>Phone: (555) 123-4567</p>
+              <p>Phone: 01795 510705</p>
               <p>Email: hello@crmtiling.com</p>
-              <p>Service Area: Greater California</p>
+              <p>Service Area: Kent and South East London</p>
             </div>
           </div>
 
           {/* Social Links */}
-          <div>
-            <h4 className="text-white font-semibold mb-4">Follow Us</h4>
-            <div className="flex gap-4">
-              <a
-                href="#"
-                className="text-blue-400 hover:text-white transition-colors"
-              >
-                <Facebook size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-blue-400 hover:text-white transition-colors"
-              >
-                <Instagram size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-blue-400 hover:text-white transition-colors"
-              >
-                <Twitter size={20} />
-              </a>
-              <a
-                href="#"
-                className="text-blue-400 hover:text-white transition-colors"
-              >
-                <Linkedin size={20} />
-              </a>
-            </div>
-          </div>
+<div>
+  <h4 className="text-white font-semibold mb-4">Follow Us</h4>
+  <div className="flex gap-4">
+    <a
+      href="https://www.instagram.com/crmtilingkent/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Follow us on Instagram"
+      className="text-slate-400 hover:text-white transition-colors"
+    >
+      <Instagram size={24} />
+    </a>
+  </div>
+</div>
+
         </div>
 
         <div className="border-t border-blue-800 pt-8 text-center text-sm">
           <p>
-            &copy; {currentYear} CRM Tiling. All rights reserved. Professional
-            tiling services.
+            &copy; {currentYear} CRM Tiling. All rights reserved.
           </p>
         </div>
       </div>
