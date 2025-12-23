@@ -34,31 +34,31 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-8">
             <button
               onClick={() => scrollToSection("hero")}
-              className="text-sm text-blue-600 hover:text-blue-700 transition-colors"
+              className="text-sm text-black-600 hover:text-blue-700 transition-colors"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("about")}
-              className="text-sm text-blue-600 hover:text-blue-700 transition-colors"
+              className="text-sm text-black-600 hover:text-blue-700 transition-colors"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-sm text-blue-600 hover:text-blue-700 transition-colors"
+              className="text-sm text-black-600 hover:text-blue-700 transition-colors"
             >
               Services
             </button>
             <button
               onClick={() => scrollToSection("gallery")}
-              className="text-sm text-blue-600 hover:text-blue-700 transition-colors"
+              className="text-sm text-black-600 hover:text-blue-700 transition-colors"
             >
               Gallery
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
+              className="px-6 py-2 bg-black-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
             >
               Contact
             </button>

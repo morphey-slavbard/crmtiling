@@ -8,7 +8,7 @@ export default function AboutSection() {
           {/* Image */}
           <div className="relative h-96 lg:h-full lg:min-h-96 rounded-xl overflow-hidden shadow-lg order-2 lg:order-1">
             <img
-              src="https://placehold.co/800x600/5a5248/ffffff?text=Professional+Tiler"
+              src="images/Bathroom1.jpg"
               alt="Professional tiling craftsman"
               className="w-full h-full object-cover"
             />

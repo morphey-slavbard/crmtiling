@@ -11,6 +11,7 @@ export default function ContactSection() {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
@@ -22,10 +23,22 @@ export default function ContactSection() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => {
+    setSubmitting(true);
+
+    try {
+      const form = e.currentTarget;
+      const fd = new FormData(form);
+
+      const res = await fetch("/", {
+        method: "POST",
+        body: fd,
+      });
+
+      if (!res.ok) throw new Error("Form submit failed");
+
+      setSubmitted(true);
       setFormData({
         name: "",
         email: "",
@@ -33,8 +46,13 @@ export default function ContactSection() {
         location: "",
         message: "",
       });
-      setSubmitted(false);
-    }, 3000);
+
+      setTimeout(() => setSubmitted(false), 4000);
+    } catch (err) {
+      alert("Sorry, something went wrong. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -49,7 +67,6 @@ export default function ContactSection() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
           <div className="space-y-8">
             <div>
               <h2 className="text-4xl font-bold mb-4">Get in Touch</h2>
@@ -88,9 +105,18 @@ export default function ContactSection() {
             </div>
           </div>
 
-          {/* Contact Form */}
           <div className="bg-blue-800/50 backdrop-blur-sm p-8 rounded-lg border border-blue-700">
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form
+              name="contact"
+              method="POST"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+              onSubmit={handleSubmit}
+              className="space-y-4"
+            >
+              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="bot-field" />
+
               <div>
                 <label
                   htmlFor="name"
@@ -188,9 +214,14 @@ export default function ContactSection() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 bg-cyan-300 text-blue-900 rounded-lg hover:bg-cyan-200 transition-colors font-semibold"
+                disabled={submitting || submitted}
+                className="w-full px-6 py-3 bg-cyan-300 text-blue-900 rounded-lg hover:bg-cyan-200 transition-colors font-semibold disabled:opacity-60"
               >
-                {submitted ? "Message Sent!" : "Send Inquiry"}
+                {submitting
+                  ? "Sending..."
+                  : submitted
+                    ? "Message Sent!"
+                    : "Send Inquiry"}
               </button>
             </form>
           </div>
