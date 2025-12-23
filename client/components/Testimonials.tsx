@@ -3,21 +3,21 @@ import { Star } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Sarah Mitchell",
-      location: "Los Angeles, CA",
-      text: "TileCraft transformed our bathroom into a spa-like retreat. The attention to detail and professionalism were outstanding. Highly recommended!",
+      name: "Darren Webster",
+      location: "Oxford, UK",
+      text: "CRM Tiling transformed our hallway even with a difficult layout. The attdention to detail and communication were outstanding. Highly recommended!",
       rating: 5,
     },
     {
-      name: "James Rodriguez",
-      location: "San Francisco, CA",
-      text: "We've worked with TileCraft on multiple projects. Their team is reliable, skilled, and always delivers premium results on time and within budget.",
+      name: "Hayley Knowles",
+      location: "Kent, UK",
+      text: "Cannot rate CRM enough, Charlie was professional, arrived on time and completed the work in the scheduled time. He gave me so much advice beforehand on questions I'd asked.",
       rating: 5,
     },
     {
-      name: "Emily Chen",
-      location: "Oakland, CA",
-      text: "From initial consultation to final installation, every step was seamless. Our kitchen tiling is absolutely stunning and has become the highlight of our home.",
+      name: "Diane Brown",
+      location: "Kent, UK",
+      text: "Highly recommend this company. Laid herringbone porcelain floor tiles in my kitchen. Fantastic workmanship, price was great too as I did obtain 2 quotes and they were the best.",
       rating: 5,
     },
   ];
