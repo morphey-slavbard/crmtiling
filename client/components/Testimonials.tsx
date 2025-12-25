@@ -3,19 +3,19 @@ import { Star } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Darren Webster",
+      name: "D Webster",
       location: "Oxford, UK",
       text: "CRM Tiling transformed our hallway even with a difficult layout. The attdention to detail and communication were outstanding. Highly recommended!",
       rating: 5,
     },
     {
-      name: "Hayley Knowles",
+      name: "H Knowles",
       location: "Kent, UK",
       text: "Cannot rate CRM enough, Charlie was professional, arrived on time and completed the work in the scheduled time. He gave me so much advice beforehand on questions I'd asked.",
       rating: 5,
     },
     {
-      name: "Diane Brown",
+      name: "D Brown",
       location: "Kent, UK",
       text: "Highly recommend this company. Laid herringbone porcelain floor tiles in my kitchen. Fantastic workmanship, price was great too as I did obtain 2 quotes and they were the best.",
       rating: 5,
