@@ -22,7 +22,7 @@ export default function AboutSection() {
               </h2>
               <p className="text-lg text-black-600">
                 With over 20 years of experience in the tiling industry,
-                CRm TIling has built a reputation for delivering exceptional
+                CRM TIling has built a reputation for delivering exceptional
                 results. Our team of skilled craftsmen takes pride in every
                 project, from residential renovations to commercial
                 installations.
