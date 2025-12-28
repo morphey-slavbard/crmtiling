@@ -21,7 +21,7 @@ export default function Header() {
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F28d3fdd1a708436099ea3ba5fd26503f%2F6bdbaad2bc08434d8171edd1ec67654b?format=webp&width=800"
+              src="images/crm-tiling-logo.png"
               alt="CRM Tiling Logo"
               className="h-12 w-auto"
             />
