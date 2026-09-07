@@ -5,7 +5,7 @@ export default function Testimonials() {
     {
       name: "D Webster",
       location: "Oxford, UK",
-      text: "CRM Tiling transformed our hallway even with a difficult layout. The attdention to detail and communication were outstanding. Highly recommended!",
+      text: "CRM Tiling transformed our hallway even with a difficult layout. The attention to detail and thier communication was outstanding. Highly recommended!",
       rating: 5,
     },
     {
