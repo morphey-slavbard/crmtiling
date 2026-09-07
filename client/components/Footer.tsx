@@ -19,7 +19,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-sm">
-              <p>Phone: 01795 510705</p>
+              <p>Phone: 07530255420</p>
               <p>Email: hello@crmtiling.com</p>
               <p>Service Area: Kent and South East London</p>
             </div>
